@@ -29,7 +29,7 @@ The general trend of training and validation loss is below.
 The trend shows a clear steady decrease in the training loss, but the validation loss stays quite constant over time. This suggests that the model was overfitting. This could potentially be addressed by introducing dropout layers in the Equivariant Graph Neural Network architecture, but this would take more experimentation.
 Below are the final results:
 
-[insert pic #2 here]
+![](https://drive.google.com/uc?export=view&id=12l6AaleF4XzrJ4Ej9dYiHiIPaEtQuHZW)
 
 These final results show more clear signs of overfitting, as the Pearson correlation on the train dataset is much higher than the Pearson score on the validation and test datasets. Again, some methods to address overfitting could significantly improve the results. I believe that overfitting became such a problem because the more complicated the architecture of a deep learning model, the more parameters and biases it has, and the more likely the model is to overfit the data. Equivariant Graph Neural Networks are, by design, complex, so they are more likely to overfit the data and less likely to generalize to unseen protein-ligand complexes.
 
