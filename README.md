@@ -24,7 +24,7 @@ The labels in the dataset are much simpler than the features. The label for each
 For evaluation, I used 5-fold cross-validation to evaluate the model’s performance on the validation dataset. In terms of the metrics used to evaluate the model, I used the Pearson R2 score (the coefficient of determination), which is common in regression problems like this one.
 The general trend of training and validation loss is below.
 
-[insert pic #1 here]
+![](https://drive.google.com/uc?export=view&id=1XGIuJuRU2dL9EZIdvV2piC950yynMSRd)
 
 The trend shows a clear steady decrease in the training loss, but the validation loss stays quite constant over time. This suggests that the model was overfitting. This could potentially be addressed by introducing dropout layers in the Equivariant Graph Neural Network architecture, but this would take more experimentation.
 Below are the final results:
